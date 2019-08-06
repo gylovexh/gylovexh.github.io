@@ -1,0 +1,52 @@
+﻿@charset "UTF-8";
+	body{
+		background-image: url("../myimgs/bg.png");
+		background-repeat: no-repeat;
+		position:relative;
+		overflow: hidden;
+	}
+	div>div{
+		width:10px;
+		height:20px;
+		background-color: red;
+		position: absolute;
+		border-radius: 50px 50px 0 0 ;
+		transform: translateX(0px) rotate(-45deg);/* 变换　旋转　deg角度 */
+	}
+	img{
+		width:200px;
+		height:120px;
+		position: absolute;
+	}
+	
+	#d2{
+		position: absolute;
+		font-size: 25px;
+		color: white;
+		background-image: url("../myimgs/time2.jpg");
+	}
+	
+	#in{ 
+		width:100px;
+		height:20px;
+		color: blue;
+		position: fixed;
+		top:45%;
+		left:90%;
+   		border-radius: 20px;
+    	background-color: darken(#f1c40f, 20%);
+		text-align: center;
+		padding:0 0 20px 0;
+	}
+	#in1{
+		width:100px;
+		height:20px;
+		color: blue;
+		position: fixed;
+		top:40%;
+		left:90%;
+   		border-radius: 20px;
+    	background-color: darken(#f1c40f, 20%);
+		text-align: center;
+		padding:0 0 20px 0;
+	}
